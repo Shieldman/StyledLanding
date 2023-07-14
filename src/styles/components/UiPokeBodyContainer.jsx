@@ -4,8 +4,8 @@ export const UiPokeBodyContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
-    height: 300px;
+    flex-wrap: wrap;
+    gap: 15px;
     background-color: coral;
     font-size: 30px;
 `
