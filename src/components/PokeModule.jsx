@@ -20,7 +20,7 @@ const PokeModule = () => {
         <UiBodyContainersRight>
             <h2>Instructions</h2>
             <p>To capture a new pokemon launch the Pokeball!</p>
-            <button onClick={()=>setId(Math.floor(Math.random()*1015))}>Launch Pokeball</button>
+            <button id='getPokemonButton' onClick={()=>setId(Math.floor(Math.random()*1015))}>Launch Pokeball</button>
         </UiBodyContainersRight>
     </UiBodyContainers>
     <UiPokeBodyContainer>
