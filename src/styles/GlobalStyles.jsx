@@ -7,7 +7,7 @@ const GlobalStyles = () => {
       styles={() => [
         {
           "*": {
-            fontFamily: "Regular"
+            fontFamily: "monospace"
           },
           "html, body": {
             margin: 0,

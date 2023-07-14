@@ -7,9 +7,9 @@ import { UiContactText } from '../styles/components/UiContactText'
 const Navbar = () => {
   return (
     <UiNavbar>
-        <UiLogoImage src="public\logo.png" alt="logo" />
+        <UiLogoImage src="/logo.png" alt="logo" />
         <a href='https://github.com/Shieldman'>
-          <UiContact src='public\support.png' alt='contact'/>
+          <UiContact src='/support.png' alt='contact'/>
           <UiContactText>Call us</UiContactText>
         </a>
     </UiNavbar>
