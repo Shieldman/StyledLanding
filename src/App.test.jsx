@@ -3,8 +3,7 @@
  */
 
 import { describe, test } from "vitest";
-import { render, screen, waitFor,fireEvent } from "@testing-library/react";
-import { userEvent } from "@testing-library/user-event";
+import { render, screen,fireEvent } from "@testing-library/react";
 
 import App from "./App";
 

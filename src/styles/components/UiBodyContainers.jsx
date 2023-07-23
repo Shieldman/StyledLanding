@@ -5,7 +5,9 @@ export const UiBodyContainers = styled.div`
     align-items: center;
     justify-content: center;
     gap: 30px;
-    height: 300px;
+    @media (max-width: 500px) {
+        flex-direction: column;
+    }
 `
 
 

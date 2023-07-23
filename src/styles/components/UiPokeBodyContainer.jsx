@@ -8,5 +8,7 @@ export const UiPokeBodyContainer = styled.div`
     gap: 15px;
     background-color: coral;
     font-size: 30px;
+    
+
 `
 
